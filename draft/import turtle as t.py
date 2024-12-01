@@ -1,0 +1,20 @@
+import turtle as t
+t.speed(10)
+t.Screen().bgcolor('blue')
+t.penup()
+t.goto(0, -80)
+t.pendown()
+t.fillcolor('yellow')
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+t.penup()
+t.goto(200, 20)
+t.shape('circle')
+t.shapesize(100)
+t.shapecolor('red')
+t.shapesize(100)
+while True:
+  for i in range(400):
+    t.backward(1)
+  t.forward(400)

@@ -1,0 +1,23 @@
+{
+   "type": "object",
+   "properties": {
+      "id": {
+         "type": "integer",
+         "description": "User ID"
+      },
+      "first_name": {
+         "type": "string",
+         "description": "User first name"
+      },
+      "last_name": {
+         "type": "string",
+         "description": "User last name"
+      }
+   },
+   "required": [
+      "id",
+      "first_name",
+      "last_name"
+   ],
+   "additionalProperties": false
+}
