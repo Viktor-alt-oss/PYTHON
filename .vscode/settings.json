@@ -2,7 +2,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./algorithms_and_structure_of_data",
+        ".",
         "-p",
         "*test.py"
     ],

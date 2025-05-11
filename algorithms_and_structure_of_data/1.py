@@ -3,9 +3,9 @@ def two_sum(nums, target):
     for i, num in enumerate(nums):
         complement = target - num
         if complement in dict_nums:
-            return i, dict_nums[complement]
+            return sorted([i, dict_nums[complement]])
         dict_nums[num] = i
 
-nums = [2, 7, 11, 15]
+nums = [2, 11, 7, 15]
 target = 9
 print(two_sum(nums, target)) 
